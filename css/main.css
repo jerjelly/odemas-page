@@ -1,0 +1,176 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#fff ;
+}
+
+h1 {
+    color: #fff;
+}
+
+.header {
+    height: 70px;
+    background-color: #c5c5c5;
+    width: 100%;
+}
+
+.nav-bg {
+    background-color: #c5c5c5;
+}
+
+.debug {
+    border: 1px solid #000;
+}
+
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5d5d5d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #5d5d5d;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.nav-item-contact {
+    position: relative;
+    float: right;
+}
+
+/* home */
+.home-container {
+    min-height: calc(100vh - 270px);
+}
+
+
+.main-img {
+    background-image: url(../images/bg-right.png);
+    background-position: center right;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.text-description-logo {
+    font-size: 1.3em;
+}
+
+.color-hr {
+    height: 12px;
+    background-image: url(../images/hr.png);
+    background-size: 100% 100%;
+}
+
+.img-allie{
+    width: 100%;
+    height: auto;
+}
+
+/* who we are */
+
+.who-container {
+    min-height: 100vh;
+    background-color: #c1281b;
+    position: relative;
+}
+
+.who-content {
+    min-height: 40vh;
+}
+
+.who-text {
+    text-align: justify;
+    color: #fff;
+}
+
+/* our brands */
+
+.our-brands-container {
+    min-height: 100vh;
+    background-color: #3369c3;
+}
+
+.vision-container {
+    background-color: #fff;
+    border-radius: 40px;
+    height: auto;
+    color: #3369c3;
+    margin-right: -10em;
+    z-index: 2;
+}
+
+.mision-container {
+    background-color: #fff;
+    border-radius: 40px;
+    height: auto;
+    color: #3369c3;
+}
+
+.title-vision {
+    font-weight: bold;
+    font-size: large;
+}
+
+.right-col-img {
+    background-image: url(../images/bg-brand-1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100% auto;
+    
+}
+
+.right-col-img-r {
+    background-image: url(../images/bg-brand-2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 105% auto;
+    
+}
+
+.vision-container-r {
+    background-color: #fff;
+    border-radius: 40px;
+    height: auto;
+    color: #3369c3;
+    margin-left: -10em;
+    z-index: 3;
+}
+
+.mision-container-r {
+    
+    background-color: #fff;
+    border-radius: 40px;
+    height: auto;
+    color: #3369c3;
+
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .vision-container {
+        margin-right: 0;
+    }
+
+    .vision-container-r {
+        margin-left: 0;
+    }
+
+ }
+
+
+
+
+
