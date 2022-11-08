@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
     
 </head>
-<body>
+<body onload="onInit()">
     <header class="header">
         <div class="container " id="inicio">
             <nav class="navbar navbar-expand-lg navbar-light  ">
@@ -53,13 +56,13 @@
               </nav>
         </div>    
     </header>
-    <main>
+    <div class="main-cont">
         <!-- inicio -->
         <section class="pt-4">
             <div class=" home-container h-100 row mt-4">
                 <div class="col-6   d-flex align-items-center justify-content-end  ">
                     <div class="masthead-container col-md-7 col-12  ">
-                            <div class="">
+                            <div class="left-main-secction">
                                 <div>
                                     <img class="img-fluid" src="images/masthead-logo.png" />
                                     <div class="text-center h-100 mt-4 text-description-logo">
@@ -78,7 +81,7 @@
             <div class="container  pt-4">
                 <div class="container color-hr "></div>
                 <div class="container  p-4 d-flex justify-content-center">
-                    <div class="row col-10   pt-2">
+                    <div class="row col-10 brands-container   pt-2">
                         <div class=" col-md-2 col-sm-4 col-6  ">
                             <img class="img-allie" src="images/allie01.png"/>
                         </div>
@@ -102,33 +105,29 @@
             </div>
         </section>
         <!-- who we are -->
-        <section>
-            <div id="quienes-somos" class="container-fluid who-container  d-flex justify-content-center align-items-center">
+        <section  id="quienes-somos">
+            <div  class="container-fluid who-container p-0 d-flex justify-content-center align-items-center">
 
-                <div class="container  ">
-                    <div class="row who-content p-1">
-                        <div class="col-md-6 ">
-                            <div class="d-flex justify-content-center">
-                                <h1>¿QUINES SOMOS?</h1>
+                <div class=" ">
+                    <div class="row who-content ">
+                        <div class="col-md-8 col-12 p-2  d-flex justify-content-center align-items-center">
+                            <div class="col-8 p-4">
+                                <div class="d-flex justify-content-start">
+                                    <span class="who-we-are-title">¿Quiénes somos?</span>
+                                </div>
+                                
+                                <p class="who-text pt-4">
+                                    Un conjunto de empresas especializadas en atender a diferentes mercados y clientes en 7 países de América Latina: México, Chile, Honduras, El Salvador, Guatemala, Costa Rica y Panamá. <br /> <br />
+                                    Somos parte de Grupo Gigante, un grupo empresarial con más de cincuenta años de experiencia, con presencia internacional en diferentes líneas de negocio con marcas como Toks, Petco, The Home Store, Beer Factory, entre otras.
+                                </p>
                             </div>
-                            
-                            <p class="who-text ">
-                                Somos un corporativo mexicano dedicado a ofrecer soluciones de productividad y tecnología, nos constituyen varias empresas especializadas en atender a nuestros diferentes mercados y clientes. 
-Office Depot: La cadena más grande de México y Centroamérica en venta de artículos para oficina, papelería, tecnología y muebles. 
-Formas Eficientes SA. (FESA): Dedicada a dar servicios B2B, especializado en grandes corporativos. <br />
-Radioshack de México: Cadena de tiendas de tecnología, así como artículos y componentes electrónicos. 
-Casa Marchand: Empresa mayorista dedicada a la distribución de productos de papelería, oficina y similares. 
-Prisa Depot: Proveedor de servicios B2B para la industria papelera y tecnología; ubicada en Chile.  <br />
-Contamos con presencia en 7 países de América Latina: México, Chile, Honduras, El Salvador, Guatemala, Costa Rica y Panamá
-Somos parte de Grupo Gigante, grupo empresarial con más de cincuenta años de existencia, con presencia internacional en diferentes líneas de negocio con marcas como Toks, Petco, The Home Store, Beer Factory, entre otras.
-
-                            </p>
                         </div>
-                        <div class="col-md-6 p-4  d-flex justify-content-center align-items-center">
-                            <video class="col-12" height="auto" controls>
+                        <div class="col-md-4 d-none d-md-block   d-flex justify-content-end align-items-center">
+                            <img class="img-fluid img-who" src="images/bg-who.png" alt="quienes somos" />
+                            <!-- <video class="col-12" height="auto" controls>
                                 <source src="videos/odemas_alta.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
-                              </video>
+                              </video> -->
                         </div>
                     </div>
                 </div>
@@ -136,6 +135,17 @@ Somos parte de Grupo Gigante, grupo empresarial con más de cincuenta años de e
 
                 <div style ="position: absolute; bottom: 0;right:0; margin-right: 10px; margin-bottom: 10px;">
                     <a class="btn btn-primary" href="#inicio">goto top</a>
+                </div>
+            </div>
+        </section>
+        <!-- video section -->
+        <section>
+            <div class="container-fluid video-container d-flex align-items-center">
+                <div class="video-margin container ">
+                    <video class="col-12 video-who" height="100%" controls>
+                        <source src="videos/odemas_alta.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </section>
@@ -152,7 +162,7 @@ Somos parte de Grupo Gigante, grupo empresarial con más de cincuenta años de e
                                 <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.</p>
     
                                 <div class="col-12 pt-2 pb-2 ">
-                                    <h1>    248 tiendas en México</h1>
+                                    <h1> 248 tiendas en México</h1>
                                     <h1>y 27 en Centroamérica</h1>
                                 </div>
                             </div>
@@ -274,10 +284,11 @@ Somos parte de Grupo Gigante, grupo empresarial con más de cincuenta años de e
         </section>
 
 
-    </main>
+    </div>
 
-    
+    <script src="js/main.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js" ></script>
+    <script src="libs/gsap-public/minified/gsap.min.js" ></script>
     
 </body>
 </html>

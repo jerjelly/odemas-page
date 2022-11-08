@@ -5,8 +5,31 @@ body {
     background-color:#fff ;
 }
 
+
+@font-face {
+    font-family: MonseSemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MonseLight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+
+
+
+.main-cont {
+    scroll-snap-type: mandatory;
+    overflow-y: scroll;
+}
+
 h1 {
     color: #fff;
+}
+
+.p-0 {
+    padding: 0;
 }
 
 .header {
@@ -82,8 +105,17 @@ h1 {
 
 .who-container {
     min-height: 100vh;
-    background-color: #c1281b;
+    background-color: #fff;
     position: relative;
+    scroll-snap-align: start;
+}
+
+.who-we-are-title {
+    color: #EC1A3B;
+    font-size: 2.5em;
+    font-family: MonseSemiBold;
+    font-weight: 600;
+    
 }
 
 .who-content {
@@ -92,7 +124,22 @@ h1 {
 
 .who-text {
     text-align: justify;
-    color: #fff;
+    color: #686868;
+    font-family: MonseLight;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+/* video */
+
+.video-container {
+    height: 100vh;
+    background-color: #CCCCCC;
+}
+
+.video-margin {
+    height: 80vh;
 }
 
 /* our brands */
