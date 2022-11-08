@@ -140,6 +140,12 @@ h1 {
 
 .video-margin {
     height: 80vh;
+    
+}
+
+.video-who {
+    height: 100%;
+    margin-top: -3em;
 }
 
 /* our brands */
