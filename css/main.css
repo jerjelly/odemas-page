@@ -17,6 +17,12 @@ body {
 }
 
 
+@font-face {
+    font-family: MonseRegular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
 
 
 .main-cont {
@@ -26,6 +32,17 @@ body {
 
 h1 {
     color: #fff;
+}
+
+h2 {
+    font-family: MonseSemiBold;
+    color: #EC1A3B;
+    font-size: 2.5em;
+}
+
+p {
+    color: #686868;
+    font-family: MonseRegular;
 }
 
 .p-0 {
@@ -152,7 +169,7 @@ h1 {
 
 .our-brands-container {
     min-height: 100vh;
-    background-color: #3369c3;
+    background-color: #CE0E2D;
 }
 
 .vision-container {
@@ -222,6 +239,8 @@ h1 {
     margin-left: 10em;
 
 }
+
+
 
 @media (max-width: 767.98px) { 
 
