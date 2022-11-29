@@ -163,7 +163,7 @@ p {
 /* brand odemas */
 
 .brand-odemas-container {
-    min-height: 130vh;
+    min-height: 135vh;
     /* min-height: 100vh; */
     background-color: #fff;
     background-image: url(../images/frame-right.png), url(../images/left-ball-top.png);
