@@ -227,7 +227,7 @@ p {
 /* map  */
 
 .map-container {
-    height: 100vh;
+    height: calc(100vh - 23px);
     background-image: url(../images/left-ball-botom.png);
     background-repeat: no-repeat;
     background-position: top  left ;
@@ -235,7 +235,7 @@ p {
 }
 
 .map-image-container {
-    height: 80vh;
+    min-height: 80vh;
     background-image: url(../images/mapa-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -361,7 +361,7 @@ p {
 /* mision vision */
 
 .mision-vision-container {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fff;
     background-image: url(../images/frame-top-vision.png), url(../images/frame-botom-mision.png);
     background-repeat: no-repeat, no-repeat;
@@ -442,11 +442,6 @@ p {
     .home-container {
         background-size: 75px auto;   
     }
-
-    .map-container { 
-        height: 75vh;
-    }
-
     
     .item-brand-bottom {
         margin-top: 5em;
@@ -457,12 +452,31 @@ p {
     }
 
     .branch-container {
-        height: 70%;
+        height: 50%;
     }
 
     .brand-odemas-container{
         background-size: 128px auto, 244px auto;
     
+    }
+
+    .thumb-content { 
+        margin-top: -3em;
+    }
+
+    /* .map-container { 
+        height: 75vh;
+    } */
+    /* .map-image-container {
+        height: 100%;
+    } */
+
+    .text-brand {
+        font-family: MonseRegular;
+        font-size: 10px;
+        color: #686868;
+        margin-top: 1em;
+        line-height: 12px;
     }
     
 
