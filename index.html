@@ -1,292 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>odemas (R) </title>
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>odemas (R) </title>
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 
-    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+
 </head>
+
 <body onload="onInit()">
-    <header class="header">
-        <div class="container " id="inicio">
-            <nav class="navbar navbar-expand-lg navbar-light  ">
-                <div class="container-fluid">
-                    <a class="navbar-brand  d-block  d-md-none" href="#">
-                        <img class="logo" src="images/logo-odemas.png" alt="logo-odemas"/>
-                    </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="d-flex justify-content-around align-items-center w-100 nav-bg ">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="navbar-brand d-none d-sm-none d-md-block" href="#">
-                                <img class="logo" src="images/logo-odemas.png" alt="logo-odemas"/>
-                            </a>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mision-vision">MISIÓN Y VISIÓN</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#nuestras-marcas">NUESTRAS MARCAS</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="#">CONTACTO</a>
-                            </li>
-                        </ul>   
+  <header class="header container-fluid ">
+    <div class="  h-100 d-flex align-items-center p-0" id="inicio">
+      <div class="h-50 container ">
+        <nav class="navbar navbar-expand-lg navbar-light  p-0  " style="height: auto; ">
+          <div class="col-12">
+            <a class="navbar-brand  d-block  d-md-none" href="#">
+              <img class="logo" src="images/logo-odemas.png" alt="logo-odemas" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="d-flex justify-content-around align-items-center w-100 nav-bg  ">
+                <div class="d-flex justify-content-between align-items-center  col-8">
+                  <a class="navbar-brand d-none d-sm-none d-md-block" href="#">
+                    <img class="logo" src="images/logo-odemas.png" alt="logo-odemas" />
+                  </a>
+                  <ul class="navbar-nav ">
+
+                    <li class="nav-item  p-2">
+                      <a class="nav-link active" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
+                    </li>
+                    <li class="nav-item  p-2">
+                      <a class="nav-link" href="#marcas-odemas">MARCAS ODEMAS</a>
+                    </li>
+                    <li class="nav-item p-2">
+                      <a class="nav-link" href="#mision-vision">MISIÓN Y VISIÓN</a>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#contacto">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="main-cont">
+    <!-- inicio -->
+    <section class="">
+      <div class=" home-container  h-100 row  ">
+        <div class="col-md-7 order-md-1 order-2  d-flex align-items-center justify-content-center  ">
+          <div class="masthead-container  col-9     ">
+            <div class="left-main-secction  mb-4 ">
+              <div class="main-text col-12">
+                Somos un corporativo mexicano dedicado a ofrecer
+                soluciones de oficina, escolares y tecnología, nos constituyen
+                varias empresas especializadas en atender a nuestros diferentes mercados y clientes.
+
+                <!-- <img class="img-fluid" src="images/masthead-logo.png" />
+                <div class="text-center h-100 mt-4 text-description-logo">
+                  Un corporativo mexicano dedicado a ofrecer soluciones de productividad y tecnología.
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-2 order-1  p-4 d-flex justify-content-center align-items-center">
+          <div class=" h-75 col-10   d-flex align-items-center">
+            <div class=" h-100 w-100 d-flex align-items-center img-link-home">
+
+              <img class="img-fluid" style="cursor: pointer;" src="images/link-video.png" alt="link "
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop" />
+
+
+              <!-- <video class="col-12  video-who debug " poster="images/video-poster.png" controls>
+                <source src="videos/Odemás 16_9 Baja.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video> -->
+            </div>
+
+          </div>
+          <!-- <div class=" ">
+                            
+                    </div> -->
+        </div>
+      </div>
+      <div class=" container-fluid colors-col ">
+        <div class="row p-0">
+          <div class="color-item  col-2" style="background-color: #D20000;"></div>
+          <div class="color-item  col-2" style="background-color: #FF0002;"></div>
+          <div class="color-item  col-2" style="background-color: #FF6E00;"></div>
+          <div class="color-item  col-2" style="background-color: #186ACA;"></div>
+          <div class="color-item  col-2" style="background-color: #2C4F78;"></div>
+          <div class="color-item  col-2" style="background-color: #686868;"></div>
+        </div>
+      </div>
+
+
+
+      <!-- <div class="container  pt-4">
+        <div class="container color-hr "></div>
+        <div class="container  p-4 d-flex justify-content-center">
+          <div class="row col-10 brands-container   pt-2">
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie01.png" />
+            </div>
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie02.png" />
+            </div>
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie03.png" />
+            </div>
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie04.png" />
+            </div>
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie05.png" />
+            </div>
+            <div class=" col-md-2 col-sm-4 col-6  ">
+              <img class="img-allie" src="images/allie06.png" />
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <section id="marcas-odemas">
+      <div class="container-fluid p-0 brand-odemas-container   ">
+        <div class=" container d-flex justify-content-center cont-odemas-b">
+          <h2>Marcas odemás </h2>
+        </div>
+        <div class="container  p-4">
+          <div class="row p-2">
+            <div class="item-brand   col-md-4 col-6">
+              <div class=" branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/brand-office.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/office-depot.png" />
+                  <div class="text-brand p-1">
+                    La cadena más grande de
+                    México y Centroamérica
+                    en venta de artículos para
+                    oficina, papelería, tecnología
+                    y muebles.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-brand   col-md-4 col-6">
+              <div class="  branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/marchand-papeleria.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/marchand-papeleria-logo.png" />
+                  <div class="text-brand p-1">
+                    Empresa mayorista dedicada
+                    a la distribución de productos de papelería, oficina
+                    y escolares desde 1951.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-brand-link   col-md-4 col-6">
+              <div class=" branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/radio-shack.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/radio-shack-logo.png" />
+                  <div class="text-brand p-1">
+                    Especialistas en tecnología e innovación para público en general. Las mejores marcas
+                    y alta calidad en conectividad,
+                    comunicación, seguridad
+                    y entretenimiento.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- <div class="row p-2" style="margin-top: 9em;"> -->
+            <div class="item-brand-bottom   col-md-4 col-6">
+              <div class=" branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/fesa.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/fesa-logo.png" />
+                  <div class="text-brand p-1">
+                    Unidad especializada en servicios
+                    integrales para las empresas.
+                    Por su gran variedad de productos
+                    y servicios logísticos, brinda ahorros tangibles en cadenas
+                    de suministros.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-brand-bottom   col-md-4 col-6">
+              <div class=" branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/prisa.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/prisa-logo.png" />
+                  <div class="text-brand p-1">
+                    Empresa líder en logística y comercializadora de suministros para la oficina,
+                    capacitados para entregar servicio y distribución en Chile, de manera eficiente a
+                    instituciones públicas y privadas.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-brand-bottom   col-md-4 col-6">
+              <div class=" branch-container d-flex justify-content-center">
+                <img class="col-10 brand-img" src="images/ofixpres.jpg" alt="Office Depot" />
+              </div>
+              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
+                <div class=" col-10 " style="text-align: center;">
+                  <img class="col-10" src="images/ofixpres-logo.png" />
+                  <div class="text-brand p-1">
+                    Unidad especializada en servicios
+                    integrales para las empresas.
+                    Por su gran variedad de productos y servicios logísticos, brinda ahorros tangibles en cadenas de
+                    suministros.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- map section  -->
+    <section>
+      <div class="container-fluid map-container pt-4">
+        <div class="container text-center p-4">
+          <h3 class="pt-4">
+            Estamos presentes en: México, Chile, Guatemala, Honduras,
+            El Salvador, Costa Rica y Panamá.
+          </h3>
+          <br />
+        </div>
+        <div class="container-fluid map-image-container ">
+
+        </div>
+      </div>
+
+      <div class=" container-fluid colors-col ">
+        <div class="row p-0">
+          <div class="color-item  col-2" style="background-color: #D20000;"></div>
+          <div class="color-item  col-2" style="background-color: #FF0002;"></div>
+          <div class="color-item  col-2" style="background-color: #FF6E00;"></div>
+          <div class="color-item  col-2" style="background-color: #186ACA;"></div>
+          <div class="color-item  col-2" style="background-color: #2C4F78;"></div>
+          <div class="color-item  col-2" style="background-color: #686868;"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- who we are -->
+    <!-- <section id="quienes-somos">
+      <div class="container-fluid who-container p-0 d-flex justify-content-center align-items-center">
+
+        <div class=" ">
+          <div class="row who-content ">
+            <div class="col-md-8 col-12 p-2  d-flex justify-content-center align-items-center">
+              <div class="col-8 p-4">
+                <div class="d-flex justify-content-start">
+                  <span class="who-we-are-title">¿Quiénes somos?</span>
+                </div>
+
+                <p class="who-text pt-4">
+                  Un conjunto de empresas especializadas en atender a diferentes mercados y clientes
+                  en 7 países de América Latina: México, Chile, Honduras, El Salvador, Guatemala,
+                  Costa Rica y Panamá. <br /> <br />
+                  Somos parte de Grupo Gigante, un grupo empresarial con más de cincuenta años de
+                  experiencia, con presencia internacional en diferentes líneas de negocio con marcas
+                  como Toks, Petco, The Home Store, Beer Factory, entre otras.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block   d-flex justify-content-end align-items-center">
+              <img class="img-fluid img-who" src="images/bg-who.png" alt="quienes somos" />
+              <video class="col-12" height="auto" controls>
+                                <source src="videos/odemas_alta.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+            </div>
+          </div>
+        </div>
+
+
+        <div style="position: absolute; bottom: 0;right:0; margin-right: 10px; margin-bottom: 10px;">
+          <a class="btn btn-primary" href="#inicio">goto top</a>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- video section -->
+    <!-- <section>
+      <div class="container-fluid video-container  d-flex align-items-center">
+        <div class="video-margin p-4  ">
+          <video class="col-12 p-4 video-who  " controls>
+            <source src="videos/odemas_alta.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section> -->
+    <!-- mision and vision -->
+    <section id="mision-vision">
+      <div class="contianer-fluid mision-vision-container d-flex justify-content-center align-items-center">
+        <div class="container   " style="height: 75vh;">
+          <div class="row h-100 ">
+            <div class="col-md-7 d-flex justify-content-center align-items-center  ">
+
+              <div class="col-12 ">
+                <img class="col-12" style="height: auto;" src="images/carousel/carousel01.png" alt="carousel-01" />
+              </div>
+
+
+
+            </div>
+            <div class="col-md-5 ">
+              <div class="d-flex align-items-center  h-100 ">
+                <div>
+                  <div class=" p-3">
+                    <h2>Misión</h2>
+                    <div class="text-mi-vi">
+                      <span class="text-bold-vi">Somos tu aliado</span>
+                      <span class="text-regular-vi">en servicios y productos de</span> <br />
+                      <span class="text-bold-vi">oficina, escolares y tecnología.</span>
+                    </div>
+                  </div>
+                  <div class=" p-3">
+                    <h2>Visión</h2>
+                    <div class="text-mi-vi">
+                      <span class="text-regular-vi">Acompañar de manera</span>
+                      <span class="text-bold-vi">responsable, sustentable e incluyente,</span>
+                      <span class="text-regular-vi">el desarrollo de personas y clientes con</span>
+                      <span class="text-bold-vi">soluciones integrales e innovadoras</span>
+                      <span class="text-regular-vi">en educación, productividad
+                        y entretenimiento.</span>
+
                     </div>
                   </div>
                 </div>
-              </nav>
-        </div>    
-    </header>
-    <div class="main-cont">
-        <!-- inicio -->
-        <section class="pt-4">
-            <div class=" home-container h-100 row mt-4">
-                <div class="col-6   d-flex align-items-center justify-content-end  ">
-                    <div class="masthead-container col-md-7 col-12  ">
-                            <div class="left-main-secction">
-                                <div>
-                                    <img class="img-fluid" src="images/masthead-logo.png" />
-                                    <div class="text-center h-100 mt-4 text-description-logo">
-                                        Un corporativo mexicano dedicado a ofrecer soluciones de productividad y tecnología.
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-6  p-0 main-img">
-                    <!-- <div class=" ">
-                            
-                    </div> -->
-                </div>
+              </div>
             </div>
-            <div class="container  pt-4">
-                <div class="container color-hr "></div>
-                <div class="container  p-4 d-flex justify-content-center">
-                    <div class="row col-10 brands-container   pt-2">
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie01.png"/>
-                        </div>
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie02.png"/>
-                        </div>
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie03.png"/>
-                        </div>
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie04.png"/>
-                        </div>
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie05.png"/>
-                        </div>
-                        <div class=" col-md-2 col-sm-4 col-6  ">
-                            <img class="img-allie" src="images/allie06.png"/>
-                        </div>
-                    </div>
+
+          </div>
+        </div>
+      </div>
+      <div class=" container-fluid colors-col ">
+        <div class="row p-0">
+          <div class="color-item  col-2" style="background-color: #D20000;"></div>
+          <div class="color-item  col-2" style="background-color: #FF0002;"></div>
+          <div class="color-item  col-2" style="background-color: #FF6E00;"></div>
+          <div class="color-item  col-2" style="background-color: #186ACA;"></div>
+          <div class="color-item  col-2" style="background-color: #2C4F78;"></div>
+          <div class="color-item  col-2" style="background-color: #686868;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="contacto">
+
+      <div class=" footer-container ">
+        <div class="pt-4 container">
+          <div class="row pt-4">
+            <div class="col-3  d-flex justify-content-center">
+              <div class="footer-info p-4">
+                <div class="col-12 ">55 5246 4000</div> <br />
+                <div class="col-10 ">
+                  Juan Salvador Agraz 101, Contadero, Cuajimalpa de Morelos, 05348
+                </div> <br />
+                <div class="col-12">
+                  Ciudad de México, CDMX
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- who we are -->
-        <section  id="quienes-somos">
-            <div  class="container-fluid who-container p-0 d-flex justify-content-center align-items-center">
-
-                <div class=" ">
-                    <div class="row who-content ">
-                        <div class="col-md-8 col-12 p-2  d-flex justify-content-center align-items-center">
-                            <div class="col-8 p-4">
-                                <div class="d-flex justify-content-start">
-                                    <span class="who-we-are-title">¿Quiénes somos?</span>
-                                </div>
-                                
-                                <p class="who-text pt-4">
-                                    Un conjunto de empresas especializadas en atender a diferentes mercados y clientes en 7 países de América Latina: México, Chile, Honduras, El Salvador, Guatemala, Costa Rica y Panamá. <br /> <br />
-                                    Somos parte de Grupo Gigante, un grupo empresarial con más de cincuenta años de experiencia, con presencia internacional en diferentes líneas de negocio con marcas como Toks, Petco, The Home Store, Beer Factory, entre otras.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-none d-md-block   d-flex justify-content-end align-items-center">
-                            <img class="img-fluid img-who" src="images/bg-who.png" alt="quienes somos" />
-                            <!-- <video class="col-12" height="auto" controls>
-                                <source src="videos/odemas_alta.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                              </video> -->
-                        </div>
-                    </div>
+            <div class="col-6  d-flex justify-content-center">
+              <div class=" row   w-100 ctas-footer">
+                <div class="col-md-6 p-4  d-flex justify-content-center">
+                  <div>
+                    <div>OFFICE DEPOT </div>
+                    <div>CASA MARCHAND</div>
+                    <div> RADIOSHAK</div>
+                  </div>
                 </div>
-                
-
-                <div style ="position: absolute; bottom: 0;right:0; margin-right: 10px; margin-bottom: 10px;">
-                    <a class="btn btn-primary" href="#inicio">goto top</a>
+                <div class="col-md-6 p-4 d-flex justify-content-center">
+                  <div>
+                    <div>FESA </div>
+                    <div>PRISA DEPOT</div>
+                    <div>OFIXPRES</div>
+                  </div>
                 </div>
+              </div>
+
             </div>
-        </section>
-        <!-- video section -->
-        <section>
-            <div class="container-fluid video-container  d-flex align-items-center">
-                <div class="video-margin p-4  ">
-                    <video class="col-12 p-4 video-who  "  controls>
-                        <source src="videos/odemas_alta.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
+            <div class="col-3 ">
+              <div class="p-4">
+                <span class="ctas-footer">Síguenos en</span>
+                <span><img src="images/behanch.png" class="col-md-2 col-12" alt="linkedIn" /> </span>
+              </div>
             </div>
-        </section>
-        <!-- mision and vision -->
-        <section id="mision-vision">
-            <div class="contianer-fluid mision-vision-container d-flex justify-content-center align-items-center pt-4">
-                <div class="container pt-4" style="height: 75vh;">
-                    <div class="row h-100">
-                        <div class="col-md-7 col-12">
+          </div>
 
-                            <div class="mision-sec col-12 col-md-9  h-50">
-                                <h2>Misión</h2>
-                                <p>
-                                    Buscamos ser un aliado de clientes y mercados que buscan servicios y productos de oficina, escolares y tecnología.
-                                </p>
-                            </div>
+        </div>
+        <div class="p-4 text-center w-100 copy-rigth-text">
+          © 2022 Todos los derechos reservados.
+        </div>
+        <div class="container-fluid  image-footer ">
+          <img class="img-fluid col-12" src="images/bg-footer-odemas.png" />
+        </div>
+      </div>
 
-                            <div class="vision-sec col-12 col-md-9  h-50 col-vision-section">
-                                <h2>Visión</h2>
-                                <p>
-                                    Acompañar, de manera empática, responsable, sustentable e incluyente, el desarrollo de personas y clientes con <span style="font-family: MonseSemiBold;">soluciones integrales e innovadoras</span> en educación, productividad y entretenimiento.
-                                </p>
-                            </div>
+    </section>
 
 
-
-                        </div>
-                        <div class="col-5   d-none d-sm-none d-md-block  ">
-                            <div class="d-flex align-items-center  h-100">
-                                <img class="img-mision-vision" src="images/fondo_8.png" style="width: 120%; height:auto; " />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- our brands -->
-        <section id="nuestras-marcas">
-            <div class="container-fluid our-brands-container" >
-                <div class="row " style="height: 100vh">
-                    <div class="col-md-8  " style="height: 100%;">
-                        <div class="col-12  d-flex align-items-center" style="padding: 3em; height: 55vh;" >
-                            <div class="">
-                                <div class=" col-12">
-                                    <img src="https://via.placeholder.com/250x100.png"/>
-                                </div>
-                                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.</p>
-    
-                                <div class="col-12 pt-2 pb-2 ">
-                                    <h1> 248 tiendas en México</h1>
-                                    <h1>y 27 en Centroamérica</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
-                                <div>
-                                    <div class=" col-12  p-3 d-flex justify-content-end">
-                                        <div class="col-10 vision-container p-3">
-                                            <span>
-                                                <span class="title-vision">VISIÓN</span>
-                                                Somos tu aliado el aliado en servicios y productos de oficina, escolares y tecnología. Con este enunciado buscamos ser empáticos e incluyentes de nuestros diferentes mercados y clientes y describir de mejor manera nuestra contribución a la sociedad.
-    
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class=" col-12 p-3 d-flex justify-content-end">
-                                        <div class="col-10 mision-container p-3">
-                                            <span>
-                                                <span class="title-vision">MISIÓN</span>
-                                                Somos tu aliado el aliado en servicios y productos de oficina, escolares y tecnología. Con este enunciado buscamos ser empáticos e incluyentes de nuestros diferentes mercados y clientes y describir de mejor manera nuestra contribución a la sociedad.
-    
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-none d-md-block  right-col-img" style="height: 100%;">
-                        <!-- col-2 -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- brand 1 -->
-
-        <section id="nuestras-marcas">
-            <div class="container-fluid our-brands-container" >
-                <div class="row " style="height: 100vh">
-                    <div class="col-md-4  d-none d-md-block  right-col-img-r" style="height: 100%;">
-                        <!-- col-2 -->
-                    </div>
-                    <div class="col-md-8  " style="height: 100%;">
-                        <div class="col-12   d-flex align-items-center  justify-content-end" style=" height: 55vh; " >
-                            <div class=" col-10  p-2 ">
-                                <div class=" col-12">
-                                    <img src="https://via.placeholder.com/250x100.png"/>
-                                </div>
-    
-                                <div class="col-12 pt-2 pb-2 ">
-                                    <h1> 248 tiendas en México</h1>
-                                    <h1>y 27 en Centroamérica</h1>
-                                </div>
-                                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.</p>
-                            </div>
-                        </div>
-                        <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
-                                <div>
-                                    <div class=" col-12  p-3 d-flex justify-content-start">
-                                        <div class="col-10 vision-container-r  p-3">
-                                            <span>
-                                                <span class="title-vision">VISIÓN</span>
-                                                Somos tu aliado el aliado en servicios y productos de oficina, escolares y tecnología. Con este enunciado buscamos ser empáticos e incluyentes de nuestros diferentes mercados y clientes y describir de mejor manera nuestra contribución a la sociedad.
-    
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class=" col-12 p-3 d-flex justify-content-start">
-                                        <div class="col-10 mision-container-r  p-3">
-                                            <span>
-                                                <span class="title-vision">MISIÓN</span>
-                                                Somos tu aliado el aliado en servicios y productos de oficina, escolares y tecnología. Con este enunciado buscamos ser empáticos e incluyentes de nuestros diferentes mercados y clientes y describir de mejor manera nuestra contribución a la sociedad.
-    
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
-
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- <div class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div> -->
+          <video class="video-who " id="video-odesa" controls>
+            <source src="videos/odemas_baja.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
     </div>
 
-    <script src="js/main.js"></script>
-    <script src="libs/bootstrap/js/bootstrap.min.js" ></script>
-    <script src="libs/gsap-public/minified/gsap.min.js" ></script>
-    
+
+    <!-- our brands -->
+    <!-- <section id="nuestras-marcas">
+      <div class="container-fluid our-brands-container">
+        <div class="row " style="height: 100vh">
+          <div class="col-md-8  " style="height: 100%;">
+            <div class="col-12  d-flex align-items-center" style="padding: 3em; height: 55vh;">
+              <div class="">
+                <div class=" col-12">
+                  <img src="https://via.placeholder.com/250x100.png" />
+                </div>
+                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y
+                  Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.
+                </p>
+
+                <div class="col-12 pt-2 pb-2 ">
+                  <h1> 248 tiendas en México</h1>
+                  <h1>y 27 en Centroamérica</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
+              <div>
+                <div class=" col-12  p-3 d-flex justify-content-end">
+                  <div class="col-10 vision-container p-3">
+                    <span>
+                      <span class="title-vision">VISIÓN</span>
+                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
+                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
+                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
+                      contribución a la sociedad.
+
+                    </span>
+                  </div>
+                </div>
+                <div class=" col-12 p-3 d-flex justify-content-end">
+                  <div class="col-10 mision-container p-3">
+                    <span>
+                      <span class="title-vision">MISIÓN</span>
+                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
+                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
+                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
+                      contribución a la sociedad.
+
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-block  right-col-img" style="height: 100%;">
+
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- brand 1 -->
+
+    <!-- <section id="nuestras-marcas">
+      <div class="container-fluid our-brands-container">
+        <div class="row " style="height: 100vh">
+          <div class="col-md-4  d-none d-md-block  right-col-img-r" style="height: 100%;">
+            
+          </div>
+          <div class="col-md-8  " style="height: 100%;">
+            <div class="col-12   d-flex align-items-center  justify-content-end" style=" height: 55vh; ">
+              <div class=" col-10  p-2 ">
+                <div class=" col-12">
+                  <img src="https://via.placeholder.com/250x100.png" />
+                </div>
+
+                <div class="col-12 pt-2 pb-2 ">
+                  <h1> 248 tiendas en México</h1>
+                  <h1>y 27 en Centroamérica</h1>
+                </div>
+                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y
+                  Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.
+                </p>
+              </div>
+            </div>
+            <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
+              <div>
+                <div class=" col-12  p-3 d-flex justify-content-start">
+                  <div class="col-10 vision-container-r  p-3">
+                    <span>
+                      <span class="title-vision">VISIÓN</span>
+                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
+                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
+                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
+                      contribución a la sociedad.
+
+                    </span>
+                  </div>
+                </div>
+                <div class=" col-12 p-3 d-flex justify-content-start">
+                  <div class="col-10 mision-container-r  p-3">
+                    <span>
+                      <span class="title-vision">MISIÓN</span>
+                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
+                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
+                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
+                      contribución a la sociedad.
+
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="libs/gsap-public/minified/gsap.min.js"></script>
+
 </body>
+
 </html>

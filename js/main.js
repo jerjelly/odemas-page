@@ -28,7 +28,13 @@ function onInit () {
 
 
 
-        
+     var myModalEl = document.getElementById('staticBackdrop')
+     myModalEl.addEventListener('hidden.bs.modal', function (event) {
+        console.log('on close modal')
+       // do something...
+       var vid = document.getElementById("video-odesa"); 
+       vid.pause();
+     })
 
 
 }

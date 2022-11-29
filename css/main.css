@@ -22,6 +22,17 @@ body {
     src: url(../fonts/Montserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: MonseMedium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: MonseBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+
 
 
 
@@ -35,9 +46,15 @@ h1 {
 }
 
 h2 {
-    font-family: MonseSemiBold;
+    font-family: MonseBold;
     color: #EC1A3B;
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: MonseBold;
+    color: #637381;
+    font-size: 2em;
 }
 
 p {
@@ -50,13 +67,12 @@ p {
 }
 
 .header {
-    height: 70px;
-    background-color: #c5c5c5;
-    width: 100%;
+    height: 100px;
+    background-color: #fff;    
 }
 
 .nav-bg {
-    background-color: #c5c5c5;
+    background-color: #fff;
 }
 
 .debug {
@@ -65,18 +81,22 @@ p {
 
 
 .logo {
-    width: 40px;
+    width: 150px;
     height: auto;
 }
 
 
+
 .navbar-light .navbar-nav .nav-link {
-    color: #5d5d5d;
+    color: #686868;
+    font-family: MonseMedium;
+    font-size: 16px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #5d5d5d;
-    font-weight: bold;
+    color: #FF0002;
+    font-family: MonseMedium;
+    text-decoration-line: underline;
 }
 
 .navbar-toggler-icon {
@@ -90,7 +110,11 @@ p {
 
 /* home */
 .home-container {
-    min-height: calc(100vh - 270px);
+    min-height: calc(100vh - 123px);
+    background-image: url(../images/bg-masthead.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 353px auto;
 }
 
 
@@ -117,6 +141,108 @@ p {
     width: 100%;
     height: auto;
 }
+
+.main-text {
+    font-family: MonseBold;
+    font-size: 1.7em;
+    color: #686868;
+}
+
+.colors-col {
+    height: 23px;
+}
+
+.color-item {
+    height: 23px;
+}
+
+.img-link-home {
+    margin-left: -4em;
+}
+
+/* brand odemas */
+
+.brand-odemas-container{
+    min-height: 110vh;
+    /* min-height: 100vh; */
+    background-color: #fff;
+    background-image: url(../images/frame-right.png), url(../images/left-ball-top.png);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 328px auto, 244px auto;
+    border-top: 1px solid #fff;
+
+}
+
+.cont-odemas-b {
+    margin-top: 5em;
+}
+
+.item-brand {
+    height: 270px;
+    position: relative;
+}
+
+.item-brand-bottom {
+    height: 270px;
+    position: relative;
+    margin-top: 12em;
+}
+
+.item-brand-link {
+    height: 270px;
+    position: relative;
+}
+
+.brand-img {
+    z-index: 2;
+}
+
+.branch-container {
+    height: 100%;
+}
+
+.thumb-content {
+    height: 200px;
+    /* width: 100px; */
+    background-color: #fff;
+    z-index: 99999;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: -5em;
+    position: absolute;
+    left: 16%;
+    border-radius: 5px;
+}
+
+.text-brand {
+    font-family: MonseRegular;
+    font-size: 12px;
+    color: #686868;
+    margin-top: 1em;
+    line-height: 12px;
+}
+
+
+
+/* map  */
+
+.map-container {
+    height: 100vh;
+    background-image: url(../images/left-ball-botom.png);
+    background-repeat: no-repeat;
+    background-position: top  left ;
+    background-size: 244px auto;
+}
+
+.map-image-container {
+    height: 80vh;
+    background-image: url(../images/mapa-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+}
+
+
 
 /* who we are */
 
@@ -161,9 +287,13 @@ p {
 }
 
 .video-who {
-    height: 100%;
-    margin-top: -3em;
+    /* height: auto;
+    width: 100%; */
+    /* width: 100%; */
+    /* margin-top: -3em; */
 }
+
+
 
 /* our brands */
 
@@ -233,13 +363,62 @@ p {
 .mision-vision-container {
     height: 100vh;
     background-color: #fff;
+    background-image: url(../images/frame-top-vision.png), url(../images/frame-botom-mision.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -25px right 0, bottom -10px right 35% ;
+    background-size: 200px auto, 250px auto;
 }
 
-.col-vision-section {
-    margin-left: 10em;
+.text-mi-vi {
+    color: #637381; 
+}
+
+.text-regular-vi {
+    font-size: 14px;
+    font-family: MonseMedium;
+}
+
+.text-bold-vi {
+    font-size: 18px;
+    font-family: MonseBold;
 
 }
 
+
+/* footer */
+
+.footer-container {
+    min-height: 55vh;
+    background-color: #fff;
+
+}
+
+.footer-info {
+    font-size: 14px;
+    font-family: MonseMedium;
+    color: #186ACA;   
+}
+
+.ctas-footer {
+    font-family: MonseSemiBold;
+    font-size: 14px;
+    color: #686868;
+    line-height: 24px;
+    /* word-spacing: 9px; */
+
+}
+
+.copy-rigth-text {
+    font-family: MonseLight;
+    font-size: 0.8em;
+    color: #637381;
+}
+.image-footer {
+    /* height: 150px; */
+    /* background-image: url(../images/bg-footer-odemas.png);
+    background-repeat: no-repeat; */
+
+}
 
 
 @media (max-width: 767.98px) { 
@@ -255,6 +434,37 @@ p {
     .col-vision-section {
         margin-left: 0;
     }
+
+    .img-link-home {
+        margin-left: 0;
+    }
+
+    .home-container {
+        background-size: 75px auto;   
+    }
+
+    .map-container { 
+        height: 75vh;
+    }
+
+    
+    .item-brand-bottom {
+        margin-top: 5em;
+    }
+    
+    .item-brand-link {
+        margin-top: 5em;       
+    }
+
+    .branch-container {
+        height: 70%;
+    }
+
+    .brand-odemas-container{
+        background-size: 128px auto, 244px auto;
+    
+    }
+    
 
  }
 
