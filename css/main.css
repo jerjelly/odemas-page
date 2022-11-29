@@ -162,8 +162,8 @@ p {
 
 /* brand odemas */
 
-.brand-odemas-container{
-    min-height: 110vh;
+.brand-odemas-container {
+    min-height: 130vh;
     /* min-height: 100vh; */
     background-color: #fff;
     background-image: url(../images/frame-right.png), url(../images/left-ball-top.png);
@@ -227,7 +227,8 @@ p {
 /* map  */
 
 .map-container {
-    height: calc(100vh - 23px);
+    min-height: calc(100vh - 23px);
+    /* height: 100vh; */
     background-image: url(../images/left-ball-botom.png);
     background-repeat: no-repeat;
     background-position: top  left ;
@@ -235,11 +236,11 @@ p {
 }
 
 .map-image-container {
-    min-height: 80vh;
+    height: 80vh;
     background-image: url(../images/mapa-desktop.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
+    background-size: auto 100%;
+    background-position: top center;
 }
 
 
@@ -456,6 +457,7 @@ p {
     }
 
     .brand-odemas-container{
+        /* min-height: 100vh; */
         background-size: 128px auto, 244px auto;
     
     }
