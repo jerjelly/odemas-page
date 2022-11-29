@@ -36,5 +36,9 @@ function onInit () {
        vid.pause();
      })
 
+     $(document).on('click', function () {
+        $('#navbarNav').collapse('hide');
+    });
+
 
 }
