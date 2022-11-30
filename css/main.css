@@ -66,6 +66,8 @@ p {
     padding: 0;
 }
 
+/* header and nav */
+
 .header {
     height: 100px;
     background-color: #fff;    
@@ -99,6 +101,12 @@ p {
     text-decoration-line: underline;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FF0002;
+    font-family: MonseMedium;
+    text-decoration-line: underline;
+}
+
 .navbar-toggler-icon {
     color: #fff;
 }
@@ -107,6 +115,17 @@ p {
     position: relative;
     float: right;
 }
+
+.contact-btn {
+    padding: 0.5em 0.8em;
+    width: auto;
+    height: 40.13px;
+    border-radius: 6px;
+    border: 1px solid #2C4F78;
+    color: #2C4F78;
+    font-family: MonseMedium;
+}
+
 
 /* home */
 .home-container {
@@ -163,14 +182,17 @@ p {
 /* brand odemas */
 
 .brand-odemas-container {
-    min-height: 135vh;
-    /* min-height: 100vh; */
+    /* min-height: 135vh; */
+    /* height: calc(auto + 400px); */
+    /* height: calc(100% + 400px); */
+    min-height: 140vh;
     background-color: #fff;
     background-image: url(../images/frame-right.png), url(../images/left-ball-top.png);
     background-position: top right, bottom left;
     background-repeat: no-repeat;
     background-size: 328px auto, 244px auto;
     border-top: 1px solid #fff;
+    /* border: 1px solid #000; */
 
 }
 
@@ -208,25 +230,28 @@ a {
 }
 
 .thumb-content {
-    height: 200px;
+    min-height: 227px;
     /* width: 100px; */
     background-color: #fff;
     z-index: 99999;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-top: -5em;
     position: absolute;
-    left: 16%;
+    left: 12.5%;
     border-radius: 5px;
 }
 
 .text-brand {
     font-family: MonseRegular;
-    font-size: 12px;
+    font-size: 13.5px;
     color: #686868;
     margin-top: 1em;
-    line-height: 12px;
+    line-height: 20px;
 }
 
+.up-brands {
+    margin-top: -10em;
+}
 
 
 /* map  */
@@ -248,102 +273,6 @@ a {
     background-position: top center;
 }
 
-
-
-/* who we are */
-
-.who-container {
-    min-height: 100vh;
-    background-color: #fff;
-    position: relative;
-    scroll-snap-align: start;
-}
-
-.who-we-are-title {
-    color: #EC1A3B;
-    font-size: 2.5em;
-    font-family: MonseSemiBold;
-    font-weight: 600;
-    
-}
-
-.who-content {
-    min-height: 40vh;
-}
-
-.who-text {
-    text-align: justify;
-    color: #686868;
-    font-family: MonseLight;
-    font-weight: bold;
-    font-size: 1.2em;
-    
-}
-
-/* video */
-
-.video-container {
-    height: 100vh;
-    background-color: #CCCCCC;
-}
-
-.video-margin {
-    height: 80vh;
-    
-}
-
-.video-who {
-    /* height: auto;
-    width: 100%; */
-    /* width: 100%; */
-    /* margin-top: -3em; */
-}
-
-
-
-/* our brands */
-
-.our-brands-container {
-    min-height: 100vh;
-    background-color: #CE0E2D;
-}
-
-.vision-container {
-    background-color: #fff;
-    border-radius: 40px;
-    height: auto;
-    color: #3369c3;
-    margin-right: -10em;
-    z-index: 2;
-}
-
-.mision-container {
-    background-color: #fff;
-    border-radius: 40px;
-    height: auto;
-    color: #3369c3;
-}
-
-.title-vision {
-    font-weight: bold;
-    font-size: large;
-}
-
-.right-col-img {
-    background-image: url(../images/bg-brand-1.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 100% auto;
-    
-}
-
-.right-col-img-r {
-    background-image: url(../images/bg-brand-2.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 105% auto;
-    
-}
 
 .vision-container-r {
     background-color: #fff;
@@ -380,12 +309,12 @@ a {
 }
 
 .text-regular-vi {
-    font-size: 14px;
+    font-size: 16px;
     font-family: MonseMedium;
 }
 
 .text-bold-vi {
-    font-size: 18px;
+    font-size: 20px;
     font-family: MonseBold;
 
 }
@@ -400,17 +329,16 @@ a {
 }
 
 .footer-info {
-    font-size: 14px;
+    font-size: 16px;
     font-family: MonseMedium;
     color: #186ACA;   
 }
 
 .ctas-footer {
     font-family: MonseSemiBold;
-    font-size: 14px;
+    font-size: 16px;
     color: #686868;
     line-height: 24px;
-    /* word-spacing: 9px; */
 
 }
 
@@ -418,12 +346,6 @@ a {
     font-family: MonseLight;
     font-size: 0.8em;
     color: #637381;
-}
-.image-footer {
-    /* height: 150px; */
-    /* background-image: url(../images/bg-footer-odemas.png);
-    background-repeat: no-repeat; */
-
 }
 
 
@@ -462,30 +384,37 @@ a {
     }
 
     .brand-odemas-container{
-        /* min-height: 100vh; */
-        background-size: 128px auto, 244px auto;
+        background-size: 128px auto, 94px auto;
     
     }
 
     .thumb-content { 
         margin-top: -3em;
+        left: 8.5%;
     }
-
-    /* .map-container { 
-        height: 75vh;
-    } */
-    /* .map-image-container {
-        height: 100%;
-    } */
 
     .text-brand {
         font-family: MonseRegular;
-        font-size: 10px;
+        font-size: 11px;
         color: #686868;
         margin-top: 1em;
-        line-height: 12px;
+        line-height: 15px;
     }
-    
+    .map-container {
+        min-height: 30vh;
+        background-size: 94px auto;
+    }
+
+    .main-text {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: -2em;
+    }
+
+    .up-brands {
+        margin-top: -5em;
+    }
+
 
  }
 

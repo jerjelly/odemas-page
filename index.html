@@ -8,7 +8,8 @@
   <title>odemas (R) </title>
   <!-- <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"> -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
   <link rel="stylesheet" href="css/main.css">
@@ -19,18 +20,21 @@
 </head>
 
 <body onload="onInit()">
+  <!-- header -->
   <header class="header container-fluid ">
     <div class="  h-100 d-flex align-items-center p-0" id="inicio">
       <div class="h-50 container ">
         <nav class="navbar navbar-expand-lg navbar-light  p-0  " style="height: auto; ">
-          <div class="col-12">
-            <a class="navbar-brand  d-block  d-md-none" href="#">
-              <img class="logo" src="images/logo-odemas.png" alt="logo-odemas" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <div class="col-12 ">
+            <div class="w-100 col-12 d-flex justify-content-between">
+              <a class="navbar-brand  d-block  d-md-none" href="#">
+                <img class="logo" src="images/logo-odemas.png" alt="logo-odemas" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
               <div class="d-flex justify-content-around align-items-center w-100 nav-bg  ">
                 <div class="d-flex justify-content-between align-items-center  col-8">
@@ -50,9 +54,9 @@
                     </li>
                   </ul>
                 </div>
-                <ul class="navbar-nav ">
+                <ul class="navbar-nav  ">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#contacto">CONTACTO</a>
+                    <a class=" contact-btn" aria-current="page" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -67,40 +71,26 @@
     <section class="">
       <div class=" home-container  h-100 row  ">
         <div class="col-md-7 order-md-1 order-2  d-flex align-items-center justify-content-center  ">
-          <div class="masthead-container  col-9     ">
+          <div class="masthead-container  col-md-9 col-12     ">
             <div class="left-main-secction  mb-4 ">
-              <div class="main-text col-12">
+              <div class="main-text col-12 p-2">
                 Somos un corporativo mexicano dedicado a ofrecer
                 soluciones de oficina, escolares y tecnología, nos constituyen
                 varias empresas especializadas en atender a nuestros diferentes mercados y clientes.
-
-                <!-- <img class="img-fluid" src="images/masthead-logo.png" />
-                <div class="text-center h-100 mt-4 text-description-logo">
-                  Un corporativo mexicano dedicado a ofrecer soluciones de productividad y tecnología.
-                </div> -->
 
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-5 order-md-2 order-1  p-4 d-flex justify-content-center align-items-center">
-          <div class=" h-75 col-10   d-flex align-items-center">
+          <div class=" h-75 col-md-11 col-12   d-flex align-items-center">
             <div class=" h-100 w-100 d-flex align-items-center img-link-home">
 
               <img class="img-fluid" style="cursor: pointer;" src="images/link-video.png" alt="link "
                 data-bs-toggle="modal" data-bs-target="#staticBackdrop" />
-
-
-              <!-- <video class="col-12  video-who debug " poster="images/video-poster.png" controls>
-                <source src="videos/Odemás 16_9 Baja.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video> -->
             </div>
 
           </div>
-          <!-- <div class=" ">
-                            
-                    </div> -->
         </div>
       </div>
       <div class=" container-fluid colors-col ">
@@ -113,138 +103,110 @@
           <div class="color-item  col-2" style="background-color: #686868;"></div>
         </div>
       </div>
-
-
-
-      <!-- <div class="container  pt-4">
-        <div class="container color-hr "></div>
-        <div class="container  p-4 d-flex justify-content-center">
-          <div class="row col-10 brands-container   pt-2">
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie01.png" />
-            </div>
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie02.png" />
-            </div>
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie03.png" />
-            </div>
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie04.png" />
-            </div>
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie05.png" />
-            </div>
-            <div class=" col-md-2 col-sm-4 col-6  ">
-              <img class="img-allie" src="images/allie06.png" />
-            </div>
-          </div>
-        </div>
-      </div> -->
     </section>
-
+    <!-- brand odemas -->
     <section id="marcas-odemas">
-      <div class="container-fluid p-0 brand-odemas-container   ">
-        <div class=" container d-flex justify-content-center cont-odemas-b">
-          <h2>Marcas odemás </h2>
-        </div>
-        <div class="container  p-4">
-          <div class="row p-2">
-            <div class="item-brand   col-md-4 col-6">
-              <div class=" branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/brand-office.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10  " style="text-align: center;">
-                  <img class="col-10 " src="images/office-depot.png" />
-                  <div class="text-brand p-1">
-                    La cadena más grande de
-                    México y Centroamérica
-                    en venta de artículos para
-                    oficina, papelería, tecnología
-                    y muebles.
+      <div class="container-fluid p-0 brand-odemas-container d-flex align-items-center justify-content-center  ">
+        <div class="up-brands">
+          <div class=" container d-flex justify-content-center cont-odemas-b">
+            <h2>Marcas odemás </h2>
+          </div>
+          <div class="container  p-4" style="height: auto; ">
+            <div class="row p-2 " style="height: auto; ">
+              <div class="item-brand    col-md-4 col-6">
+                <div class=" branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/brand-office.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10   d-flex justify-content-center pt-3">
+                  <div class=" col-10  " style="text-align: center;">
+                    <img class="col-10 " src="images/office-depot.png" />
+                    <div class="text-brand p-1">
+                      La cadena más grande de
+                      México y Centroamérica
+                      en venta de artículos para
+                      oficina, papelería, tecnología
+                      y muebles.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="item-brand   col-md-4 col-6">
-              <div class="  branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/marchand-papeleria.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10 " style="text-align: center;">
-                  <img class="col-10" src="images/marchand-papeleria-logo.png" />
-                  <div class="text-brand p-1">
-                    Empresa mayorista dedicada
-                    a la distribución de productos de papelería, oficina
-                    y escolares desde 1951.
+              <div class="item-brand   col-md-4 col-6">
+                <div class="  branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/marchand-papeleria.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10  d-flex justify-content-center pt-3">
+                  <div class=" col-10 " style="text-align: center;">
+                    <img class="col-10" src="images/marchand-papeleria-logo.png" />
+                    <div class="text-brand p-1">
+                      Empresa mayorista dedicada
+                      a la distribución de productos de papelería, oficina
+                      y escolares desde 1951.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="item-brand-link   col-md-4 col-6">
-              <div class=" branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/radio-shack.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10 " style="text-align: center;">
-                  <img class="col-10" src="images/radio-shack-logo.png" />
-                  <div class="text-brand p-1">
-                    Especialistas en tecnología e innovación para público en general. Las mejores marcas
-                    y alta calidad en conectividad,
-                    comunicación, seguridad
-                    y entretenimiento.
+              <div class="item-brand-link   col-md-4 col-6">
+                <div class=" branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/radio-shack.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10  d-flex justify-content-center pt-3">
+                  <div class=" col-10 " style="text-align: center;">
+                    <img class="col-10" src="images/radio-shack-logo.png" />
+                    <div class="text-brand p-1">
+                      Especialistas en tecnología e innovación para público en general. Las mejores marcas
+                      y alta calidad en conectividad,
+                      comunicación, seguridad
+                      y entretenimiento.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-
-            <!-- <div class="row p-2" style="margin-top: 9em;"> -->
-            <div class="item-brand-bottom   col-md-4 col-6">
-              <div class=" branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/fesa.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10 " style="text-align: center;">
-                  <img class="col-10" src="images/fesa-logo.png" />
-                  <div class="text-brand p-1">
-                    Unidad especializada en servicios
-                    integrales para las empresas.
-                    Por su gran variedad de productos
-                    y servicios logísticos, brinda ahorros tangibles en cadenas
-                    de suministros.
+              <div class="item-brand-bottom   col-md-4 col-6">
+                <div class=" branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/fesa.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10  d-flex justify-content-center pt-3">
+                  <div class=" col-10 " style="text-align: center;">
+                    <img class="col-8" src="images/fesa-logo.png" />
+                    <div class="text-brand p-1">
+                      Unidad especializada en servicios
+                      integrales para las empresas.
+                      Por su gran variedad de productos
+                      y servicios logísticos, brinda ahorros tangibles en cadenas
+                      de suministros.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="item-brand-bottom   col-md-4 col-6">
-              <div class=" branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/prisa.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10 " style="text-align: center;">
-                  <img class="col-8" src="images/prisa-logo.png" />
-                  <div class="text-brand p-1">
-                    Empresa líder en logística y comercializadora de suministros para la oficina,
-                    capacitados para entregar servicio y distribución en Chile, de manera eficiente a
-                    instituciones públicas y privadas.
+              <div class="item-brand-bottom   col-md-4 col-6">
+                <div class=" branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/prisa.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10  d-flex justify-content-center pt-3">
+                  <div class=" col-10 " style="text-align: center;">
+                    <img class="col-7" src="images/prisa-logo.png"  />
+                    <div class="text-brand p-1 ">
+                      Empresa líder en logística y comercializadora de suministros para la oficina,
+                      capacitados para entregar servicio y distribución en Chile, de manera eficiente a
+                      instituciones públicas y privadas.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="item-brand-bottom   col-md-4 col-6">
-              <div class=" branch-container d-flex justify-content-center">
-                <img class="col-10 brand-img" src="images/ofixpres.jpg" alt="Office Depot" />
-              </div>
-              <div class="thumb-content col-8  d-flex justify-content-center pt-3">
-                <div class=" col-10 " style="text-align: center;">
-                  <img class="col-10" src="images/ofixpres-logo.png" />
-                  <div class="text-brand p-1">
-                    Unidad especializada en servicios
-                    integrales para las empresas.
-                    Por su gran variedad de productos y servicios logísticos, brinda ahorros tangibles en cadenas de
-                    suministros.
+              <div class="item-brand-bottom   col-md-4 col-6 ">
+                <div class=" branch-container d-flex justify-content-center">
+                  <img class="col-md-11 col-12 brand-img" src="images/ofixpres.jpg" alt="Office Depot" />
+                </div>
+                <div class="thumb-content col-md-9 col-10  d-flex justify-content-center pt-3">
+                  <div class=" col-10 " style="text-align: center;">
+                    <img class="col-10" src="images/ofixpres-logo.png" />
+                    <div class="text-brand p-1">
+                      Unidad especializada en servicios
+                      integrales para las empresas.
+                      Por su gran variedad de productos y servicios logísticos, brinda ahorros tangibles en cadenas de
+                      suministros.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -257,9 +219,9 @@
 
     <!-- map section  -->
     <section>
-      <div class="container-fluid map-container pt-4  ">
+      <div class="container-fluid map-container pt-4   ">
         <div class="container text-center p-4">
-          
+
           <h3 class="pt-4">
             Estamos presentes en: México, Chile, Guatemala, Honduras,
             El Salvador, Costa Rica y Panamá.
@@ -267,7 +229,7 @@
           <br />
         </div>
         <div class="container-fluid /*map-image-container debug*/ ">
-          <img class="img-fluid" src="images/mapa-desktop.png"/>
+          <img class="img-fluid" src="images/mapa-desktop.png" />
         </div>
 
       </div>
@@ -285,131 +247,55 @@
 
     </section>
 
-    <!-- who we are -->
-    <!-- <section id="quienes-somos">
-      <div class="container-fluid who-container p-0 d-flex justify-content-center align-items-center">
-
-        <div class=" ">
-          <div class="row who-content ">
-            <div class="col-md-8 col-12 p-2  d-flex justify-content-center align-items-center">
-              <div class="col-8 p-4">
-                <div class="d-flex justify-content-start">
-                  <span class="who-we-are-title">¿Quiénes somos?</span>
-                </div>
-
-                <p class="who-text pt-4">
-                  Un conjunto de empresas especializadas en atender a diferentes mercados y clientes
-                  en 7 países de América Latina: México, Chile, Honduras, El Salvador, Guatemala,
-                  Costa Rica y Panamá. <br /> <br />
-                  Somos parte de Grupo Gigante, un grupo empresarial con más de cincuenta años de
-                  experiencia, con presencia internacional en diferentes líneas de negocio con marcas
-                  como Toks, Petco, The Home Store, Beer Factory, entre otras.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 d-none d-md-block   d-flex justify-content-end align-items-center">
-              <img class="img-fluid img-who" src="images/bg-who.png" alt="quienes somos" />
-              <video class="col-12" height="auto" controls>
-                                <source src="videos/odemas_alta.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                              </video>
-            </div>
-          </div>
-        </div>
-
-
-        <div style="position: absolute; bottom: 0;right:0; margin-right: 10px; margin-bottom: 10px;">
-          <a class="btn btn-primary" href="#inicio">goto top</a>
-        </div>
-      </div>
-    </section> -->
-
-
-    <!-- video section -->
-    <!-- <section>
-      <div class="container-fluid video-container  d-flex align-items-center">
-        <div class="video-margin p-4  ">
-          <video class="col-12 p-4 video-who  " controls>
-            <source src="videos/odemas_alta.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </section> -->
     <!-- mision and vision -->
     <section id="mision-vision">
       <div class="contianer-fluid mision-vision-container d-flex justify-content-center align-items-center">
-        <div class="container   " >
+        <div class="container   ">
           <div class="row  ">
             <div class="col-md-7 d-flex justify-content-center align-items-center  ">
 
               <div class="col-10 ">
-                <!-- <img class="col-12" style="height: auto;" src="images/carousel/carousel01.png" alt="carousel-01" /> -->
-
-                <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel01.png" alt="carousel-01" />
-                    </div>
-                    <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel02.png" alt="carousel-01" />
-                    </div>
-                    <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel03.png" alt="carousel-01" />
-                    </div>
-                    <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel04.png" alt="carousel-01" />
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div> -->
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"
+                      aria-label="Slide 4"></button>
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel01.jpg" alt="carousel-01" />
+                      <img class="col-12" style="height: auto;" src="images/carousel/carousel01.jpg"
+                        alt="carousel-01" />
                     </div>
                     <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel02.jpg" alt="carousel-01" />
+                      <img class="col-12" style="height: auto;" src="images/carousel/carousel02.jpg"
+                        alt="carousel-01" />
                     </div>
                     <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel03.jpg" alt="carousel-01" />
+                      <img class="col-12" style="height: auto;" src="images/carousel/carousel03.jpg"
+                        alt="carousel-01" />
                     </div>
                     <div class="carousel-item">
-                      <img class="col-12" style="height: auto;" src="images/carousel/carousel04.jpg" alt="carousel-01" />
+                      <img class="col-12" style="height: auto;" src="images/carousel/carousel04.jpg"
+                        alt="carousel-01" />
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
               </div>
-
-
-
             </div>
             <div class="col-md-5 ">
               <div class="d-flex align-items-center  h-100 ">
@@ -458,8 +344,8 @@
 
       <div class=" footer-container ">
         <div class="pt-4 container">
-          <div class="row pt-4">
-            <div class="col-3  d-flex justify-content-center">
+          <div class="row pt-4 ">
+            <div class="col-md-3 col-6  d-flex justify-content-center ">
               <div class="footer-info p-4">
                 <div class="col-12 "><a href="tel:55 5246 4000"> 55 5246 4000</a> </div> <br />
                 <div class="col-10 ">
@@ -470,21 +356,21 @@
                 </div>
               </div>
             </div>
-            <div class="col-6  d-flex justify-content-center">
+            <div class="col-md-6 col-6 d-flex justify-content-center ">
               <div class=" row   w-100 ctas-footer">
                 <div class="col-md-6 p-4  d-flex justify-content-center">
                   <div>
-                     <div> <a href="https://www.linkedin.com/company/18231815/admin/
-                      " target="_blank">OFFICE DEPOT</a> 
-                     </div>
-                    <div>
+                    <div> <a href="https://www.linkedin.com/company/18231815/admin/
+                      " target="_blank">OFFICE DEPOT</a>
+                    </div>
+                    <div class="pt-2">
                       <a href="https://www.linkedin.com/company/casamarchand/?viewAsMember=true" target="_blank">
                         CASA MARCHAND
                       </a>
                     </div>
-                    <div> 
+                    <div class="pt-2">
                       <a href="https://www.linkedin.com/company/radioshack-mexico/?viewAsMember=true" target="_blank">
-                      RADIOSHAK
+                        RADIOSHAK
                       </a>
                     </div>
                   </div>
@@ -493,14 +379,14 @@
                   <div>
                     <div>
                       <a href="https://www.linkedin.com/company/60409341/admin/" target="_blank">
-                        FESA 
+                        FESA
                       </a>
                     </div>
-                    <div>
+                    <div class="pt-2">
                       <a href="https://www.linkedin.com/company/prisa-depot/" target="_blank">
-                      PRISA DEPOT
+                        PRISA DEPOT
                       </a>
-                    </div>
+                    </div class="pt-2">
                     <div>OFIXPRES</div>
                   </div>
                 </div>
@@ -509,8 +395,10 @@
             </div>
             <div class="col-md-3 col-12 ">
               <div class="p-4">
-                <span class="ctas-footer"><a href="https://mx.linkedin.com/company/odemas?trk=affiliated-pages" target="_blank"> Síguenos en</a></span>
-                <span><a href="https://mx.linkedin.com/company/odemas?trk=affiliated-pages" target="_blank"> <img src="images/behanch.png" class="col-md-2 col-1" alt="linkedIn" /> </a> </span>
+                <span class="ctas-footer"><a href="https://mx.linkedin.com/company/odemas?trk=affiliated-pages"
+                    target="_blank"> Síguenos en</a></span>
+                <span><a href="https://mx.linkedin.com/company/odemas?trk=affiliated-pages" target="_blank"> <img
+                      src="images/behanch.png" class="col-md-2 col-2" alt="linkedIn" /> </a> </span>
               </div>
             </div>
           </div>
@@ -519,7 +407,7 @@
         <div class="p-4 text-center w-100 copy-rigth-text">
           © 2022 Todos los derechos reservados.
         </div>
-        <div class="container-fluid  image-footer ">
+        <div class="container-fluid  image-footer p-0 ">
           <img class="img-fluid col-12" src="images/bg-footer-odemas.png" />
         </div>
       </div>
@@ -532,16 +420,8 @@
       <div class="modal-dialog modal-dialog-centered modal-lg ">
         <div class="modal-content">
           <div class="modal-header">
-            <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <!-- <div class="modal-body">
-            
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Understood</button>
-          </div> -->
           <video class="video-who " id="video-odesa" controls>
             <source src="videos/odemas_baja.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -549,132 +429,21 @@
         </div>
       </div>
     </div>
-
-
-    <!-- our brands -->
-    <!-- <section id="nuestras-marcas">
-      <div class="container-fluid our-brands-container">
-        <div class="row " style="height: 100vh">
-          <div class="col-md-8  " style="height: 100%;">
-            <div class="col-12  d-flex align-items-center" style="padding: 3em; height: 55vh;">
-              <div class="">
-                <div class=" col-12">
-                  <img src="https://via.placeholder.com/250x100.png" />
-                </div>
-                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y
-                  Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.
-                </p>
-
-                <div class="col-12 pt-2 pb-2 ">
-                  <h1> 248 tiendas en México</h1>
-                  <h1>y 27 en Centroamérica</h1>
-                </div>
-              </div>
-            </div>
-            <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
-              <div>
-                <div class=" col-12  p-3 d-flex justify-content-end">
-                  <div class="col-10 vision-container p-3">
-                    <span>
-                      <span class="title-vision">VISIÓN</span>
-                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
-                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
-                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
-                      contribución a la sociedad.
-
-                    </span>
-                  </div>
-                </div>
-                <div class=" col-12 p-3 d-flex justify-content-end">
-                  <div class="col-10 mision-container p-3">
-                    <span>
-                      <span class="title-vision">MISIÓN</span>
-                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
-                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
-                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
-                      contribución a la sociedad.
-
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-none d-md-block  right-col-img" style="height: 100%;">
-
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- brand 1 -->
-
-    <!-- <section id="nuestras-marcas">
-      <div class="container-fluid our-brands-container">
-        <div class="row " style="height: 100vh">
-          <div class="col-md-4  d-none d-md-block  right-col-img-r" style="height: 100%;">
-            
-          </div>
-          <div class="col-md-8  " style="height: 100%;">
-            <div class="col-12   d-flex align-items-center  justify-content-end" style=" height: 55vh; ">
-              <div class=" col-10  p-2 ">
-                <div class=" col-12">
-                  <img src="https://via.placeholder.com/250x100.png" />
-                </div>
-
-                <div class="col-12 pt-2 pb-2 ">
-                  <h1> 248 tiendas en México</h1>
-                  <h1>y 27 en Centroamérica</h1>
-                </div>
-                <p class=" col-12 pt-2 pb-2" style="color:#fff">La cadena más grande de México y
-                  Centroamérica en venta de articulos para oficina, papelería, tecnología y muebles.
-                </p>
-              </div>
-            </div>
-            <div class="col-12  pt-4 d-flex align-items-center" style="height: 45vh;">
-              <div>
-                <div class=" col-12  p-3 d-flex justify-content-start">
-                  <div class="col-10 vision-container-r  p-3">
-                    <span>
-                      <span class="title-vision">VISIÓN</span>
-                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
-                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
-                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
-                      contribución a la sociedad.
-
-                    </span>
-                  </div>
-                </div>
-                <div class=" col-12 p-3 d-flex justify-content-start">
-                  <div class="col-10 mision-container-r  p-3">
-                    <span>
-                      <span class="title-vision">MISIÓN</span>
-                      Somos tu aliado el aliado en servicios y productos de oficina, escolares y
-                      tecnología. Con este enunciado buscamos ser empáticos e incluyentes de
-                      nuestros diferentes mercados y clientes y describir de mejor manera nuestra
-                      contribución a la sociedad.
-
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-
   </div>
 
   <script src="js/main.js"></script>
   <!-- <script src="libs/bootstrap/js/bootstrap.min.js"></script>
   <script src="libs/gsap-public/minified/gsap.min.js"></script> -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 
 </body>
 
