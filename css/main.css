@@ -348,6 +348,14 @@ a {
     color: #637381;
 }
 
+.show-mobile {
+    display: none;
+}
+
+.show-desktop {
+    display: block;
+}
+
 
 @media (max-width: 767.98px) { 
 
@@ -417,6 +425,20 @@ a {
 
     .text-footer-mb {
         margin-top: -0.5em;
+    }
+
+    h3 {
+        font-family: MonseBold;
+        color: #637381;
+        font-size: 1.5em;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .show-desktop {
+        display: none;
     }
 
 
